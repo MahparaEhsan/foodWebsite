@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --navbar-height:59px;
+}
+
+.centerss{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.center{
+    text-align: center;
+    margin-top: 30px;
+}
+/* Navigation Bar */
+#navbar{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+#navbar::before{
+    content: "";
+    margin-top: 0;
+    background-color: black;
+    position: absolute;
+    height: 60px;
+    /* width: 750px; */
+    z-index: -1;
+    opacity: 0.24px;
+}
+/* logo and img */
+#logo{
+    margin: 1px 3px;
+}
+#logo1{
+    margin-top: 5px;
+    height: 50px;
+    width: 50px;
+    border-radius: 60px;
+}
+
+
+
+/* navigationbar styling */
+
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+
+    color: aliceblue; 
+  
+    font-size: 15px;
+}
+
+#unordered{
+    margin-left: 40px;
+}
+nav a{
+    display: block;
+    padding:3px 10px ;
+    border-radius: 2px; 
+    text-decoration:none;
+}
+/* here a problem */
+nav a:hover{
+      background-color: rgb(147, 134, 134); 
+      color: black; 
+    text-decoration: underline white;
+}
+
+.blur-effect {
+    filter: blur(5px); /* Apply blur effect */
+}
+
+/* ========================================order */
+#container {
+    /* position: relative; */
+    transition: filter 0.3s ease;
+    /* filter: blur(5px); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 80%;
+    margin-left: 20%;
+    padding: 20px;
+}
+.image-box {
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.image-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.image-box .name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.image-box .price {
+    color: green;
+    margin-bottom: 10px;
+}
+.image-box button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.image-box button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+/* ========================================order now */
+
+.container2 {
+    position: absolute;
+    top: 150px;
+    width: 60%;
+    /* margin: 0 auto; */
+    /* z-index: -1; */
+    /* max-width: 80%; */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+input[type="number"],
+button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
+#hid{
+    display: none;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* -moz-box-align: center; */
+    /* justify-content: center; */
+    margin-left: 20%;
+    
+}
+
+
+ /* footer section */
+ footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 34px 20px;
+}
+
+
+
+/* ========================================menu */
+
+#menu_sec{
+ 
+    background-color: rgb(244, 131, 90);
+    width: 20%;
+    height: fit-content;
+    float: lef;
+    position: absolute;
+    top: 60px;
+}
+#menu_sec h1{
+    margin-left: 2%;
+    margin-top: 600px;
+}
+#menu_sec h1,h4,h2{
+    color: #fff;
+}
+#menu_sec h4{
+    margin-left: 4%;
+}
+.ordern{
+width: 80%;
+float: right;
+}
